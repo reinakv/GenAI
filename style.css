@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+  }
+  .details {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  canvas {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .details {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .music {
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+  }
+  
+  .heading {
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+  }
+  
+  .monastery-title,
+  .printer-title,
+  .piano-title,
+  .opera-title,
+  .radio-title,
+  .now-title {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+  }
+  
+  .monastery-info,
+  .printer-info,
+  .piano-info,
+  .opera-info,
+  .radio-info,
+  .now-info {
+    width: 20%;
+    text-align: right;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    left: 75%;
+    bottom: 50%;
+    transform: translate(10%, 50%);
+  }
+
+  .lecture1{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .lecture2{
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, 50%);
+  }  
+  
+  .lecture3{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    right: 50%;
+    bottom: 40%;
+    transform: translate(50%, 50%);
+  }  
+
+  .lecture4{
+    width: 40%;
+    text-align: left;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    right: 20%;
+    top: 20%;
+    transform: translate(-90%, 10%);
+  }  
+
+  .lecture5{
+    width: 40%;
+    text-align: right;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 20px;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-10%, 10%);
+  }  
+
+  .explain1{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 10%);
+  }  
+  .explain2{
+    width: 30%;
+    text-align: left;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    left: 20%;
+    bottom: 20%;
+    transform: translate(-50%, 10%);
+  } 
+  
+  .explain3{
+    width: 30%;
+    text-align: right;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+    right: 30%;
+    bottom: 30%;
+    transform: translate(80%, 0%);
+  } 
+
+  .question1 {
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .question2,
+  .question3,
+  .question4,
+  .question5,
+  .question6,
+  .question7{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+  } 
+
+  .question2{
+    left: 10%;
+    bottom: 30%;
+  }
+
+  .question3{
+    right: 10%;
+    top: 90%;
+  }
+  
+  .question4{
+    left: 60%;
+    bottom: 40%;
+  }
+
+  .question5{
+    left: 10%;
+    top: 10%;
+  }
+
+  .question6{
+    left: 30%;
+    bottom: 20%;
+  }
+
+  .question7{
+    left: 80%;
+    top: 40%;
+  }
+
+  .inspire1,
+  .inspire4,
+  .final {
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .inspire2,
+  .inspire3,
+  .inspire5,
+  .inspire6,
+  .inspire7{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 20px;
+  } 
+
+  .inspire2{
+    text-align: left;
+    width: 40%;
+    right: 40%;
+    top: 20%;
+    transform: translate(-40%, 50%);
+  }
+  
+  .inspire3{
+    text-align: right;
+    width: 40%;
+    right: 30%;
+    bottom: 20%;
+    transform: translate(40%, 50%);
+  }
+  
+  .inspire5{
+    text-align: center;
+    width: 60%;
+    right: 30%;
+    bottom: 50%;
+    transform: translate(40%, 50%);
+  }
+
+  .inspire6{
+    text-align: left;
+    width: 30%;
+    left: 20%;
+    top: 20%;
+    transform: translate(-40%, 50%);
+  }
+
+  .inspire7{
+    text-align: right;
+    width: 20%;
+    right: 20%;
+    bottom: 20%;
+    transform: translate(40%, 50%);
+  }
+
+  .final{
+    color: black;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .heading {
+      font-size: 2rem;
+      right: 50%;
+      bottom: 25%;
+      transform: translate(50%, 50%);
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
